@@ -239,8 +239,8 @@ const Navbar = () => {
             </NavLink>
           </ul>
 
-          {/* large device visible button and search icon 
-        <div className="hidden lg:flex items-center">
+          {/* large device visible button and search icon */}
+          <div className="hidden lg:flex items-center">
             <span onClick={handleClick} className="mr-3 cursor-pointer group ">
               {isDarkMode ? (
                 <BiSun
@@ -259,7 +259,7 @@ const Navbar = () => {
             <Link to="/find_room">
               <button className="btn-secondary ">Booking Now</button>
             </Link>
-          </div> */ 
+          </div>
         </div>
       </div>
     </nav>
