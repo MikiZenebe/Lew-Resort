@@ -24,7 +24,7 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-
+/* 
   const handleClick = () => {
     const newMode = !isDarkMode;
     setIsDarkMode(newMode);
@@ -38,7 +38,7 @@ const Navbar = () => {
       document.documentElement.classList.remove("dark");
     }
   }, [isDarkMode]);
-
+*/ 
   return (
     <nav
       className={` w-full lg:fixed font-Lora z-10  lg:px-5 lg:py-2  transition-all duration-300  ${navbarBgColor} `}
