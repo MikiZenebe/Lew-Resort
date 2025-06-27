@@ -25,19 +25,9 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleClick = () => {
-    const newMode = !isDarkMode;
-    setIsDarkMode(newMode);
-    localStorage.setItem("darkMode", newMode);
-  };
+ 
 
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [isDarkMode]);
+  
 
   return (
     <nav
@@ -69,21 +59,7 @@ const Navbar = () => {
 
             {/* toggle bar and dark and light mode. */}
              <div className="flex items-center ">
-              <span onClick={handleClick} className="mr-3 cursor-pointer">
-                {isDarkMode ? (
-                  <BiSun
-                    className="text-white"
-                    title="Apply Light Mode"
-                    size={20}
-                  />
-                ) : (
-                  <IoMoonSharp
-                    size={20}
-                    className="text-white"
-                    title="Apply Dark Mode"
-                  />
-                )}
-              </span>
+
               <button
                 className="lg:hidden block focus:outline-none "
                 onClick={toggleNavbar}
