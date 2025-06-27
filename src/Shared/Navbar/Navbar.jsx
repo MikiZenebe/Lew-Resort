@@ -5,7 +5,7 @@ import { IoMdClose } from "react-icons/io";
 import { BiChevronDown, BiSun } from "react-icons/bi";
 import { IoMoonSharp } from "react-icons/io5";
 import { useEffect, useState } from "react";
-
+/*
 const Navbar = () => {
   // modal openar
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +37,7 @@ const Navbar = () => {
     } else {
       document.documentElement.classList.remove("dark");
     }
-  }, [isDarkMode]);
+  }, [isDarkMode]); */
 
   return (
     <nav
