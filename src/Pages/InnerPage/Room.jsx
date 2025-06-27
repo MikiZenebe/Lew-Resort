@@ -480,7 +480,7 @@ const Room = () => {
                     Call Us Now
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack  font-medium">
-                    +251 916 31 31 31 <br \>
+                    +251 916 31 31 31 <br />
                     +251 930 28 00 00
                   </p>
                 </div>
