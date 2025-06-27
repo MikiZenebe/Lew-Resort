@@ -237,7 +237,7 @@ const Room = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/rooms/Deluxe-Twin.jpg "
+                    src="/images/40menche/1D6A5815.jpg" 
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
