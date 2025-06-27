@@ -26,9 +26,11 @@ const Navbar = () => {
   };
 
   const handleClick = () => {
+    /* 
     const newMode = !isDarkMode;
     setIsDarkMode(newMode);
     localStorage.setItem("darkMode", newMode);
+    */
   };
 
 /*   useEffect(() => {
