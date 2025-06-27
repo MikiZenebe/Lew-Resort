@@ -31,14 +31,14 @@ const Navbar = () => {
     localStorage.setItem("darkMode", newMode);
   };
 
-  useEffect(() => {
+/*   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
   }, [isDarkMode]);
-
+*/ 
   return (
     <nav
       className={` w-full lg:fixed font-Lora z-10  lg:px-5 lg:py-2  transition-all duration-300  ${navbarBgColor} `}
