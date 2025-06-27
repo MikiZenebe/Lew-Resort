@@ -96,14 +96,14 @@ const Room = () => {
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242]  border-t-0">
                   <div className="py-6 px-[30px]">
                     <h4 className="text-sm leading-[26px] text-khaki uppercase font-semibold">
-                      Luxury Room
+                      Room
                     </h4>
                     <Link
                       to="/find_room"
                       state={{ price: "450", title: "Delux Family Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Standard Single
+                        Wolaita Sodo
                       </h2>
                     </Link>
                     <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
@@ -156,7 +156,7 @@ const Room = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/rooms/Deluxe-Twin.jpg "
+                    src="/images/Hawssa p/1D6A4869.jpg " 
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
@@ -184,7 +184,7 @@ const Room = () => {
                       state={{ price: "550", title: "Double Suite Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Standard Twin
+                        Hawassa 
                       </h2>
                     </Link>
                     <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
@@ -265,7 +265,7 @@ const Room = () => {
                       state={{ price: "550", title: "Double Suite Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Standard Twin
+                        Arbamchi
                       </h2>
                     </Link>
                     <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
