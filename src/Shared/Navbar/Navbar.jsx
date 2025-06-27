@@ -25,15 +25,15 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleClick = () => {
-    /* 
+  /*  const handleClick = () => {
+   
     const newMode = !isDarkMode;
     setIsDarkMode(newMode);
     localStorage.setItem("darkMode", newMode);
-    */
+    
   };
 
-/*   useEffect(() => {
+  useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
     } else {
