@@ -31,7 +31,7 @@ const HeroSection = () => {
 
         
         <SwiperSlide>
-          <div className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden" data-aos="fade-down">
+         <div className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden" data-aos="fade-down">
   <video
     autoPlay
     muted
@@ -44,9 +44,10 @@ const HeroSection = () => {
   </video>
   <div className="absolute inset-0 bg-[#1e1e1ede] bg-opacity-90 grid items-center justify-center text-white">
     {/* Your overlay content goes here */}
-  </div>
+  
 </div>
 
+            
 
 
             <div className="font-Garamond 2xl:w-[720px] text-center">
