@@ -31,10 +31,22 @@ const HeroSection = () => {
 
         
         <SwiperSlide>
-          <div
-            className="bg-[url('/images/home-1/Lewishorttrailer.mp4')] w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px]  bg-[#1e1e1ede] bg-opacity-90 grid items-center bg-cover justify-center text-white relative pb-[150px] lg:pb-16 xl:pb-0 "
-            data-aos="fade-down"
-          >
+          <div className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden" data-aos="fade-down">
+  <video
+    autoPlay
+    muted
+    loop
+    playsInline
+    className="absolute top-0 left-0 w-full h-full object-cover"
+  >
+    <source src="/videos/Lewishorttrailer.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div className="absolute inset-0 bg-[#1e1e1ede] bg-opacity-90 grid items-center justify-center text-white">
+    {/* Your overlay content goes here */}
+  </div>
+</div>
+
 
 
             <div className="font-Garamond 2xl:w-[720px] text-center">
