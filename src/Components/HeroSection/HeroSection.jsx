@@ -1,3 +1,34 @@
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "./style.css";
+
+// import required modules
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FaStar } from "react-icons/fa";
+import { BiPhoneCall } from "react-icons/bi";
+import { Link } from "react-router-dom";
+
+const HeroSection = () => {
+  return (
+    <div className="">
+      <Swiper
+        centeredSlides={true}
+        navigation={true}
+        speed="3000"
+        autoplay={{
+          delay: 10000,
+          disableOnInteraction: true,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Navigation, Autoplay, Pagination]}
+        className="mySwiper"
+      >
+        {/* slider 1 */}
+
 <SwiperSlide>
   <div
     className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden"
@@ -54,3 +85,11 @@
     </div>
   </div>
 </SwiperSlide>
+
+        {/* slider 2 */}
+        </Swiper>
+    </div>
+  );
+};
+
+export default HeroSection;
