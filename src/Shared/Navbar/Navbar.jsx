@@ -2,17 +2,13 @@ import { Link, NavLink } from "react-router-dom";
 import useScrollPosition from "./useScrollPosition";
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
-import { BiChevronDown, BiSun } from "react-icons/bi";
-import { IoMoonSharp } from "react-icons/io5";
+import { BiChevronDown } from "react-icons/bi";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
   // modal openar
   const [isOpen, setIsOpen] = useState(false);
-  // dark mode toggle bar
-  const [isDarkMode, setIsDarkMode] = useState(
-    localStorage.getItem("darkMode") === "true"
-  );
+
   // scrolling tracker
   const scrollPosition = useScrollPosition();
   // background color add and remover
@@ -24,20 +20,6 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-
-  const handleClick = () => {
-    const newMode = !isDarkMode;
-    setIsDarkMode(newMode);
-    localStorage.setItem("darkMode", newMode);
-  };
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [isDarkMode]);
 
   return (
     <nav
@@ -67,23 +49,8 @@ const Navbar = () => {
               </Link>
             </div>
 
-            {/* toggle bar and dark and light mode. */}
+            {/* toggle bar */}
             <div className="flex items-center ">
-              <span onClick={handleClick} className="mr-3 cursor-pointer">
-                {isDarkMode ? (
-                  <BiSun
-                    className="text-white"
-                    title="Apply Light Mode"
-                    size={20}
-                  />
-                ) : (
-                  <IoMoonSharp
-                    size={20}
-                    className="text-white"
-                    title="Apply Dark Mode"
-                  />
-                )}
-              </span>
               <button
                 className="lg:hidden block focus:outline-none "
                 onClick={toggleNavbar}
@@ -134,11 +101,7 @@ const Navbar = () => {
                   : ""} text-lightBlack lg:text-white dark:text-white  lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 group relative `}
               to="/room"
             >
-              <span className="flex items-center">
-                destinations
-              
-              </span>
-           
+              <span className="flex items-center">destinations</span>
             </NavLink>
             {/* <NavLink
               className={`${({ isActive, isPending }) =>
@@ -241,21 +204,6 @@ const Navbar = () => {
 
           {/* large device visible button and search icon */}
           <div className="hidden lg:flex items-center">
-            <span onClick={handleClick} className="mr-3 cursor-pointer group ">
-              {isDarkMode ? (
-                <BiSun
-                  className="text-white group-hover:rotate-90 rotate transition-all duration-300"
-                  title="Apply Light Mode"
-                  size={35}
-                />
-              ) : (
-                <IoMoonSharp
-                  className="text-white group-hover:rotate-[360deg] transition-all duration-300"
-                  title="Apply Dark Mode"
-                  size={35}
-                />
-              )}
-            </span>
             <Link to="/find_room">
               <button className="btn-secondary ">Booking Now</button>
             </Link>
