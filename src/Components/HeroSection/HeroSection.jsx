@@ -46,7 +46,7 @@ const HeroSection = () => {
     </video>
 
     {/* overlay text */}
-    <div className="relative z-10 grid items-center justify-center w-full h-full bg-[#1e1e1ede] bg-opacity-02 text-white">
+    <div className="relative z-10 grid items-center justify-center w-full h-full bg-[#1e1e1ede] bg-opacity-90 text-white">
       <div className="font-Garamond 2xl:w-[720px] text-center">
         <div className="flex space-x-2 items-center justify-center mb-5 lg:mb-6">
           <FaStar className="w-[14px] h-[14px] lg:w-[16px] lg:h-[16px] text-[#1cc3b2]" />
