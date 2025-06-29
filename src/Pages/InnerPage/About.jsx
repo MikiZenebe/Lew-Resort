@@ -55,7 +55,7 @@ const About = () => {
               data-aos-duration="1000"
             >
               <img
-                src="/images/home-1/Lewi-Resort-Wolaita-Sodo-Exterior-2.jpg"
+                src="/images/40menche/1D6A5815.jpg"
                 alt=""
                 className="w-full h-full"
               />
