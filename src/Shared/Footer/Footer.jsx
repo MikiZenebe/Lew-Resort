@@ -93,10 +93,10 @@ const Footer = () => {
                  "
                 >
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
-                    <Link to="#">About Hotel</Link>
+                    <Link to="/about">About Hotel</Link>
                   </li>
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
-                    <Link to="#">Rooms & Suites</Link>
+                    <Link to="/room">destinations</Link>
                   </li>
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
                     <Link to="#">Reservations</Link>
@@ -105,7 +105,7 @@ const Footer = () => {
                     <Link to="#">News & Blogs</Link>
                   </li>
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
-                    <Link to="#">Contact Us</Link>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </div>
