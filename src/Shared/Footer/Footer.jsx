@@ -96,7 +96,7 @@ const Footer = () => {
                     <Link to="/about">About Hotel</Link>
                   </li>
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
-                    <Link to="/room">destinations</Link>
+                    <Link to="/room">Destinations</Link>
                   </li>
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
                     <Link to="/room">Reservations</Link>
