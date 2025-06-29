@@ -138,11 +138,11 @@ const Footer = () => {
                   alt=""
                 />{" "}
                 <img
-                  src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                  src="/images/Bonga/5F3A3639.jpg"
                   alt=""
                 />{" "}
                 <img
-                  src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                  src="/images/Bonga/5F3A3675.jpg"
                   alt=""
                 />
               </div>
