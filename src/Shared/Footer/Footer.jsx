@@ -126,15 +126,15 @@ const Footer = () => {
                   alt=""
                 />
                 <img
-                  src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                  src="/images/40menche/1D6A5916.jpg"
                   alt=""
                 />{" "}
                 <img
-                  src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                  src="/images/welita/1D6A5685.jpg"
                   alt=""
                 />{" "}
                 <img
-                  src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                  src="/images/welita/1D6A5639.jpg"
                   alt=""
                 />{" "}
                 <img
