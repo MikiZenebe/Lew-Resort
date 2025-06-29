@@ -12,8 +12,9 @@ const RoomDetails = () => {
 
   const navigate = useNavigate();
   const images = [
-    "/images/welita/1D6A5555.jpg",
-    "/images/welita/1D6A5597.jpg",
+    "images/Hawssa p/1D6A4632.jpg",
+    "images/Hawssa p/1D6A4874.jpg",
+    "images/Hawssa p/1D6A4869.jpg", 
   ];
 
   const prevBtn = () => {
@@ -53,7 +54,7 @@ const RoomDetails = () => {
   };
   return (
     <section className="">
-      <BreadCrumb title=" Wolaita Sodod room" />
+      <BreadCrumb title="Hawassa Rooms" />
 
       {/* Room Details */}
       <div className="py-20 2xl:py-[120px] dark:bg-lightBlack">
@@ -101,7 +102,7 @@ const RoomDetails = () => {
               >
                 {bookingsData && bookingsData.title
                   ? bookingsData.title
-                  : "Deluxe Wolaita Sodo"}d
+                  : "Hawassa Rooms"}d
               </h2>
               <p
                 className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
