@@ -12,9 +12,11 @@ const RoomDetails = () => {
 
   const navigate = useNavigate();
   const images = [
-    "images/Hawssa p/1D6A4632.jpg",
-    "images/Hawssa p/1D6A4874.jpg",
-    "images/Hawssa p/1D6A4869.jpg", 
+    "/images/Bonga/5F3A3636.jpg",
+    "/images/Bonga/5F3A3639.jpg",
+    "/images/Bonga/5F3A3675.jpg", 
+    "/images/Bonga/5F3A3661.jpg", 
+
   ];
 
   const prevBtn = () => {
@@ -54,7 +56,7 @@ const RoomDetails = () => {
   };
   return (
     <section className="">
-      <BreadCrumb title="Hawassa Rooms" />
+      <BreadCrumb title="Bonga" />
 
       {/* Room Details */}
       <div className="py-20 2xl:py-[120px] dark:bg-lightBlack">
@@ -102,27 +104,25 @@ const RoomDetails = () => {
               >
                 {bookingsData && bookingsData.title
                   ? bookingsData.title
-                  : "Hawassa Rooms"}d
+                  : "Bonga Rooms"}d
               </h2>
               <p
                 className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-               Lewi Resort Hawassa is a peaceful retreat located just steps from the beautiful shores of Lake Hawassa. 
-               Here, nature, comfort, and culture come together. Whether you’re visiting for business or leisure, our resort offers an unforgettable experience surrounded by lush greenery, cool breezes, and stunning lake views.
-
+              Lewi Resort Keffa Bonga, the latest addition to the Lewi Hotels & Resorts chain, is nestled in the lush highlands of Bonga, Ethiopia. 
+              This region is renowned as the birthplace of wild Arabica coffee and is home to the Kafa Biosphere Reserve, a UNESCO-recognized area celebrated for its rich biodiversity and coffee forests.
               </p>
               <p
                 className="mt-5 2xl:mt-7 text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-                Rooms & Suites Our resort offers a wide selection of rooms designed for comfort and relaxation. 
-                All rooms feature free Wi-Fi, air conditioning, a flat-screen TV, a minibar, and 24-hour room service.
-                    Standard Rooms: Cozy and well-furnished with modern amenities, ideal for solo travelers or short stays.
-                    Deluxe Rooms: Spacious with a private balcony overlooking the garden or lake, perfect for couples or small families.
-                    Suites: Elegantly designed with a separate living space, ideal for long stays or special occasions.
+                Our resort offers a wide selection of rooms designed for comfort and relaxation. All rooms feature free Wi-Fi, a flat-screen TV, and 24-hour room service.
+                Standard Rooms: Cozy and well-furnished with modern amenities, ideal for solo travelers or short stays.
+                Deluxe Rooms: Spacious with a private balcony overlooking the city view, perfect for couples or small families.
+                Suites: Elegantly designed with a separate living space and two bedrooms, ideal for long stays or special occasions.
               </p>
               {/* Check-In and check-Out */}
               <div
@@ -202,46 +202,44 @@ const RoomDetails = () => {
                   className="pb-2 sm:pb-3 md:pb-4 lg:pb-[19px] 2xl:pb-6
                 font-Garamond text-[22px] sm:text-2xl md:text-3xl 2xl:text-[32px] leading-7 lg:leading-[26px] text-lightBlack dark:text-white font-semibold"
                 >
-                  Amenities
+                  Nearby Attractions
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora mb-5 2xl:mb-[30px]">
-                  Lewi Resort offers all the facilities you need for a refreshing and fulfilling stay:
+                  Kafa Biosphere Reserve: A UNESCO-designated area that preserves the natural habitat of wild Arabica coffee.
                 </p>
                 <ul className="space-y-2 lg:space-y-3 ">
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Swimming pool
+                      National Coffee Museum: Located in Bonga city, this museum provides insights into the history and significance of coffee in Ethiopia.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Wellness & spa centre, massage
+                      Barta Falls: A picturesque waterfall situated approximately an hour’s drive from Jimma.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Conference and meeting halls
+                      Historical Sites: Explore the ruins associated with the former Kingdom of Kaffa.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      24/7 front desk and security
+                      Local Markets: Experience the vibrant local culture by visiting markets that offer honey, coffee, and cardamom.
                     </span>
                   </li>
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Children’s play area
                     </span>
                   </li>
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Fitness gym
                     </span>
                   </li>
                 </ul>
