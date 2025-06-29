@@ -237,7 +237,7 @@ const Rooms = () => {
                         />
                       </div>
                       <div className="">
-                        <Link to={"/RoomDetailsBonga"}>
+                        <Link to={"/RoomDetailsBonga"}> 
                           <button className="flex items-center justify-center text-[15px] leading-[38px] bg-lightBlack absolute bottom-0 -left-40 px-5 text-white  group-hover:left-0 transition-all duration-300 hover:bg-khaki">
                             View Details{" "}
                             <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
@@ -257,7 +257,7 @@ const Rooms = () => {
                           <h4 className="text-sm leading-[26px] text-khaki uppercase font-semibold">
                             Luxury Room
                           </h4>
-                          <Link to="/RoomDetailsBonga">
+                          <Link to={"/RoomDetailsBonga"}> 
                             <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
                               Bonga
                             </h2>
