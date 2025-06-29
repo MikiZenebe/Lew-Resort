@@ -73,7 +73,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                    src="/images/Bonga/5F3A3660.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
@@ -109,7 +109,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                    src="/images/40menche/1D6A5919.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
@@ -145,7 +145,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                    src="/images/welita/1D6A5555.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
@@ -181,7 +181,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                    src="MikiZenebe/Lewi-Resort/public/images/Hawssa p/1D6A4726.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
