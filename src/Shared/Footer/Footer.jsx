@@ -99,7 +99,7 @@ const Footer = () => {
                     <Link to="/room">destinations</Link>
                   </li>
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
-                    <Link to="#">Reservations</Link>
+                    <Link to="/room">Reservations</Link>
                   </li>
                   <li className="hover:ml-[17px] md:hover:ml-[18px] transition-all duration-500 hover:text-khaki leading-[44px]">
                     <Link to="#">News & Blogs</Link>
