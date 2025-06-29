@@ -122,7 +122,7 @@ const Footer = () => {
               </h1>
               <div className="grid grid-cols-3 gap-2 mt-[45px] w-[250px] sm:w-[300px] lg:w-full  content-center ">
                 <img
-                  src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                  src="/images/40menche/1D6A5911.jpg"
                   alt=""
                 />
                 <img
