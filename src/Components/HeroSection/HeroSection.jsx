@@ -65,8 +65,14 @@ const HeroSection = () => {
         <h4 className="text-base mb-4">HOTELS AND RESORTS</h4>
         <div className="mb-7 md:mb-8 lg:mb-9 xl:mb-10">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl 3xl:text-6xl font-semibold leading-[40px] md:leading-[50px] 3xl:leading-[70px]">
-            IT IS A PLACE WHERE HAPPINESS HAPPENS
+            IT IS A PLACE WHERE HAPPINESS HAPPENS.
           </h1>
+            <h2
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl 3xl:text-6xl font-semibold leading-[40px] md:leading-[50px] 3xl:leading-[70px] text-[#00ac9f]"
+            >
+              Lewi Hotels and Resorts
+            </h2>
+
         </div>
         <Link to="/about">
           <button
