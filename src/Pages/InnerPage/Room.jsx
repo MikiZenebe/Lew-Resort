@@ -75,7 +75,7 @@ const Room = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/welita/1D6A5555.jpg"
+                    src="/images/Bonga/5F3A3639.jpg"
                     className="w-full h-full object-cover group-group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
@@ -104,7 +104,7 @@ const Room = () => {
                       state={{ price: "450", title: "Delux Family Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Wolaita Sodo
+                        Bonga
                       </h2>
                     </Link>
                     <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
