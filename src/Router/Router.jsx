@@ -8,6 +8,10 @@ import About from "../Pages/InnerPage/About";
 import Room from "../Pages/InnerPage/Room";
 import FindRoom from "../Pages/InnerPage/FindRoom";
 import RoomDetails from "../Pages/InnerPage/RoomDetails";
+import RoomDetailsArbaMinch from "../Pages/InnerPage/RoomDetailsArbaMinch"; 
+import RoomDetailsWolita from "../Pages/InnerPage/RoomDetailsWolita"; 
+import RoomDetailsBonga from "../Pages/InnerPage/RoomDetailsBonga";  
+
 import Services from "../Pages/InnerPage/Services";
 import ServiceDetails from "../Pages/InnerPage/ServiceDetails";
 import Team from "../Pages/InnerPage/Team";
@@ -73,6 +77,28 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+
+
+      {
+       path: "/RoomDetailsArbaMinch",
+        element: <RoomDetailsArbaMinch />,
+
+      },
+
+
+       {
+       path: "/RoomDetailsWolita",
+        element: <RoomDetailsWolita />,
+
+      },
+
+
+      {
+       path: "/RoomDetailsBonga",
+        element: <RoomDetailsBonga />,
+
+      },
+
     ],
   },
 ]);
