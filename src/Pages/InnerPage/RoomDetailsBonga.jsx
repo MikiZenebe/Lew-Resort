@@ -5,7 +5,7 @@ import { FiLogOut } from "react-icons/fi";
 import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
-const RoomDetails = () => {
+const roomdetailsbonga = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const location = useLocation();
   const bookingsData = location.state && location.state;
@@ -406,4 +406,4 @@ const RoomDetails = () => {
   );
 };
 
-export default RoomDetails;
+export default roomdetailsbonga;
