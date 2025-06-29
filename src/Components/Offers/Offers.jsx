@@ -181,7 +181,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="MikiZenebe/Lewi-Resort/public/images/Hawssa p/1D6A4726.jpg"
+                    src="/images/Hawssa p/1D6A4726.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
