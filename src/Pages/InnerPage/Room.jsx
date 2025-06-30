@@ -263,7 +263,7 @@ const Room = () => {
                       Luxury Room
                     </h4>
                     <Link
-                      to="/find_room"
+                      to="/room_details"
                       state={{ price: "550", title: "Double Suite Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
