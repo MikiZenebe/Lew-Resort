@@ -210,7 +210,6 @@ const RoomDetailsWolita = () => {
 
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora mb-5 2xl:mb-[30px]">
-                  Lake Hawassa: Take a boat ride, birdwatch, or stroll along the lake promenade.
                 </p>
                 <ul className="space-y-2 lg:space-y-3 ">
                   <li className="flex items-center">
@@ -234,7 +233,8 @@ const RoomDetailsWolita = () => {
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-
+                  Lake Hawassa: Take a boat ride, birdwatch, or stroll along the lake promenade.
+                    
                     </span>
                   </li>
                    <li className="flex items-center">
