@@ -5,16 +5,17 @@ import { FiLogOut } from "react-icons/fi";
 import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
-const RoomDetails = () => {
+const RoomDetailsWolita = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const location = useLocation();
   const bookingsData = location.state && location.state;
 
   const navigate = useNavigate();
   const images = [
-    "images/Hawssa p/1D6A4632.jpg",
-    "images/Hawssa p/1D6A4874.jpg",
-    "images/Hawssa p/1D6A4869.jpg", 
+    "images/welita/1D6A5488.jpg",
+    "images/welita/1D6A5543.jpg",
+    "images/welita/1D6A5683.jpg", 
+
   ];
 
   const prevBtn = () => {
@@ -54,7 +55,7 @@ const RoomDetails = () => {
   };
   return (
     <section className="">
-      <BreadCrumb title="Hawassa Rooms" />
+      <BreadCrumb title="wolaita sodo Rooms" />
 
       {/* Room Details */}
       <div className="py-20 2xl:py-[120px] dark:bg-lightBlack">
@@ -102,15 +103,17 @@ const RoomDetails = () => {
               >
                 {bookingsData && bookingsData.title
                   ? bookingsData.title
-                  : "Hawassa Rooms"}d
+                  : "wolaita sodo Rooms"}d
               </h2>
               <p
                 className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-               Lewi Resort Hawassa is a peaceful retreat located just steps from the beautiful shores of Lake Hawassa. 
-               Here, nature, comfort, and culture come together. Whether you’re visiting for business or leisure, our resort offers an unforgettable experience surrounded by lush greenery, cool breezes, and stunning lake views.
+             
+             Lewi Resort Sodo is located in Wolaita Sodo, Ethiopia. Nestled on over 54,000 square meters in the lush greenery of Wolaita, our resort blends the untouched beauty of Southern Ethiopia with authentic cultural hospitality. 
+             With more than 95 rooms set amidst vibrant natural surroundings, the resort offers an immersive experience enriched by traditional Southern design, cuisine, and ambiance. 
+             Whether you’re here for leisure or business, every detail is crafted to provide genuine comfort and a memorable stay.
 
               </p>
               <p
@@ -118,11 +121,12 @@ const RoomDetails = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-                Rooms & Suites Our resort offers a wide selection of rooms designed for comfort and relaxation. 
-                All rooms feature free Wi-Fi, air conditioning, a flat-screen TV, a minibar, and 24-hour room service.
-                    Standard Rooms: Cozy and well-furnished with modern amenities, ideal for solo travelers or short stays.
-                    Deluxe Rooms: Spacious with a private balcony overlooking the garden or lake, perfect for couples or small families.
-                    Suites: Elegantly designed with a separate living space, ideal for long stays or special occasions.
+                Rooms Each room includes a balcony with city views, a flat-screen TV, and a private bathroom equipped with a hot shower and hair dryer. Room amenities also include a fridge and Wifi.
+                A restaurant and bar serving traditional Southern dishes and international options.
+                A beautiful garden setting for relaxation and outdoor dining.
+                Free WiFi available throughout the property.
+                Private parking is available.
+
               </p>
               {/* Check-In and check-Out */}
               <div
@@ -202,46 +206,48 @@ const RoomDetails = () => {
                   className="pb-2 sm:pb-3 md:pb-4 lg:pb-[19px] 2xl:pb-6
                 font-Garamond text-[22px] sm:text-2xl md:text-3xl 2xl:text-[32px] leading-7 lg:leading-[26px] text-lightBlack dark:text-white font-semibold"
                 >
-                  Amenities
+                  Local Attractions
+
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora mb-5 2xl:mb-[30px]">
-                  Lewi Resort offers all the facilities you need for a refreshing and fulfilling stay:
+                  Lake Hawassa: Take a boat ride, birdwatch, or stroll along the lake promenade.
                 </p>
                 <ul className="space-y-2 lg:space-y-3 ">
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Swimming pool
+                      Amora Gedel Park: A nearby green space ideal for walking and picnics.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Wellness & spa centre, massage
+                      Fish Market: A lively local experience where fresh fish is caught, sold, and cooked on the spot.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Conference and meeting halls
+                      Sidama Cultural Sites: Discover the traditions, music, and history of the Sidama people.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      24/7 front desk and security
+
                     </span>
                   </li>
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Children’s play area
+
                     </span>
                   </li>
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Fitness gym
+
+
                     </span>
                   </li>
                 </ul>
@@ -408,4 +414,4 @@ const RoomDetails = () => {
   );
 };
 
-export default RoomDetails;
+export default RoomDetailsWolita;
