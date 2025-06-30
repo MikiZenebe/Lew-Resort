@@ -103,7 +103,7 @@ const RoomDetailsWolita = () => {
               >
                 {bookingsData && bookingsData.title
                   ? bookingsData.title
-                  : "wolaita sodo Rooms"}d
+                  : "wolaita sodo Rooms"}
               </h2>
               <p
                 className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
