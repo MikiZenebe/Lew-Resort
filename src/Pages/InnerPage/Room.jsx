@@ -168,7 +168,7 @@ const Room = () => {
                   <span>Day</span>
                 </div>
 
-                <Link to={"/room_details"}>
+                <Link to={"/RoomDetailsWolita"}>
                   <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}
@@ -182,7 +182,7 @@ const Room = () => {
                       Room
                     </h4>
                     <Link
-                      to="/find_room"
+                      to="/RoomDetailsWolita"
                       state={{ price: "450", title: "Delux Family Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
