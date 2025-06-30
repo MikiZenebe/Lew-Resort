@@ -351,7 +351,7 @@ const RoomDetails = () => {
                     className="text-khaki mr-2 md:mr-3 xl:mr-[15px]"
                   />
                   <span className="text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                    Max person 4
+                   Lake Hawassa: Take a boat ride, birdwatch, or stroll along the lake promenade.
                   </span>
                 </div>
                 <div className="flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray">
@@ -360,7 +360,7 @@ const RoomDetails = () => {
                     className="text-khaki mr-2 md:mr-3 xl:mr-[15px]"
                   />
                   <span className="text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                    Free WiFi Available
+                  Amora Gedel Park: A nearby green space ideal for walking and picnics.
                   </span>
                 </div>
                 <div className="flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray">
@@ -369,7 +369,7 @@ const RoomDetails = () => {
                     className="text-khaki mr-2 md:mr-3 xl:mr-[15px]"
                   />
                   <span className="text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                    Swimming Pools
+                    Fish Market: A lively local experience where fresh fish is caught, sold, and cooked on the spot.
                   </span>
                 </div>
                 <div className="flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray">
@@ -378,7 +378,7 @@ const RoomDetails = () => {
                     className="text-khaki mr-2 md:mr-3 xl:mr-[15px]"
                   />
                   <span className="text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                    Breakfast
+                    Sidama Cultural Sites: Discover the traditions, music, and history of the Sidama people.
                   </span>
                 </div>
                 <div className="flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray">
@@ -387,7 +387,8 @@ const RoomDetails = () => {
                     className="text-khaki mr-2 md:mr-3 xl:mr-[15px]"
                   />
                   <span className="text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                    250 SQFT Rooms
+
+
                   </span>
                 </div>
                 <div className="flex items-center py-5 ">
@@ -396,7 +397,8 @@ const RoomDetails = () => {
                     className="text-khaki mr-2 md:mr-3 xl:mr-[15px]"
                   />
                   <span className="text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                    Gym facilities
+
+
                   </span>
                 </div>
               </div>
