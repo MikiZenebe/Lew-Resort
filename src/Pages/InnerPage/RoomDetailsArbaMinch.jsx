@@ -5,7 +5,7 @@ import { FiLogOut } from "react-icons/fi";
 import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 
-const RoomDetails = () => {
+const RoomDetailsArbaMinch = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const location = useLocation();
   const bookingsData = location.state && location.state;
@@ -54,7 +54,7 @@ const RoomDetails = () => {
   };
   return (
     <section className="">
-      <BreadCrumb title="Hawassa Rooms" />
+      <BreadCrumb title="Arbamchi Rooms" />
 
       {/* Room Details */}
       <div className="py-20 2xl:py-[120px] dark:bg-lightBlack">
@@ -102,15 +102,17 @@ const RoomDetails = () => {
               >
                 {bookingsData && bookingsData.title
                   ? bookingsData.title
-                  : "Hawassa Rooms"}d
+                  : "Arbamchi Rooms"}d
               </h2>
               <p
                 className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-               Lewi Resort Hawassa is a peaceful retreat located just steps from the beautiful shores of Lake Hawassa. 
-               Here, nature, comfort, and culture come together. Whether you’re visiting for business or leisure, our resort offers an unforgettable experience surrounded by lush greenery, cool breezes, and stunning lake views.
+               
+Set within the historic palace grounds of Emperor Haile Selassie, Lewi Resort Arbaminch offers a rare blend of royal legacy, breathtaking scenery, and modern comfort. 
+Overlooking the majestic twin lakes Lake Abaya and Lake Chamo the resort is your gateway to the natural and cultural treasures of southern Ethiopia. 
+Whether you’re visiting for business, leisure, or cultural exploration, Lewi Resort Arbaminch promises a one-of-a-kind experience.
 
               </p>
               <p
@@ -118,11 +120,11 @@ const RoomDetails = () => {
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-                Rooms & Suites Our resort offers a wide selection of rooms designed for comfort and relaxation. 
-                All rooms feature free Wi-Fi, air conditioning, a flat-screen TV, a minibar, and 24-hour room service.
-                    Standard Rooms: Cozy and well-furnished with modern amenities, ideal for solo travelers or short stays.
-                    Deluxe Rooms: Spacious with a private balcony overlooking the garden or lake, perfect for couples or small families.
-                    Suites: Elegantly designed with a separate living space, ideal for long stays or special occasions.
+               Rooms & Suites Our rooms are designed to reflect both the natural beauty of Arbaminch and the regal heritage of the location. Each room includes complimentary Wi-Fi, a flat-screen TV, a private bathroom, a minibar, and room service.
+              Standard Rooms: Comfortable and spacious with Lake, Forest and Mountain views.
+              Deluxe Rooms: Enjoy panoramic views of the lakes, Forest or palace grounds, complete with modern amenities.
+              Executive Suites: Ideal for guests seeking extra space and luxury, with private balconies and premium furnishings.
+              Royal Suites: Located in the original palace section, these suites blend imperial charm with contemporary elegance.
               </p>
               {/* Check-In and check-Out */}
               <div
@@ -202,46 +204,46 @@ const RoomDetails = () => {
                   className="pb-2 sm:pb-3 md:pb-4 lg:pb-[19px] 2xl:pb-6
                 font-Garamond text-[22px] sm:text-2xl md:text-3xl 2xl:text-[32px] leading-7 lg:leading-[26px] text-lightBlack dark:text-white font-semibold"
                 >
-                  Amenities
+                  Local Attractions
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora mb-5 2xl:mb-[30px]">
-                  Lewi Resort offers all the facilities you need for a refreshing and fulfilling stay:
+                  Nech Sar National Park: A haven for wildlife and birdwatching.
                 </p>
                 <ul className="space-y-2 lg:space-y-3 ">
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Swimming pool
+                      Crocodile Market (Lake Chamo): See crocodiles and hippos up close on a boat tour.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Wellness & spa centre, massage
+                     Dorze Village: Discover traditional weaving, bamboo houses, and cultural heritage.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Conference and meeting halls
+                     Forty Springs (“Arba Minch”): The springs that gave the city its name, located nearby.
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      24/7 front desk and security
+                     Sunset Points: Breathtaking viewpoints for lake sunsets and photography.
                     </span>
                   </li>
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Children’s play area
+
                     </span>
                   </li>
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Fitness gym
+
                     </span>
                   </li>
                 </ul>
@@ -408,4 +410,4 @@ const RoomDetails = () => {
   );
 };
 
-export default RoomDetails;
+export default RoomDetailsArbaMinch;
