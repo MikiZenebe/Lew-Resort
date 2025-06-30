@@ -205,7 +205,6 @@ const roomdetailsbonga = () => {
                   Nearby Attractions
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora mb-5 2xl:mb-[30px]">
-                  Kafa Biosphere Reserve: A UNESCO-designated area that preserves the natural habitat of wild Arabica coffee.
                 </p>
                 <ul className="space-y-2 lg:space-y-3 ">
                   <li className="flex items-center">
@@ -235,6 +234,8 @@ const roomdetailsbonga = () => {
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
+                  Kafa Biosphere Reserve: A UNESCO-designated area that preserves the natural habitat of wild Arabica coffee.
+                    
                     </span>
                   </li>
                    <li className="flex items-center">
