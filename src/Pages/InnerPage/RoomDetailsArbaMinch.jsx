@@ -207,7 +207,6 @@ Whether you’re visiting for business, leisure, or cultural exploration, Lewi R
                   Local Attractions
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora mb-5 2xl:mb-[30px]">
-                  Nech Sar National Park: A haven for wildlife and birdwatching.
                 </p>
                 <ul className="space-y-2 lg:space-y-3 ">
                   <li className="flex items-center">
@@ -237,6 +236,7 @@ Whether you’re visiting for business, leisure, or cultural exploration, Lewi R
                    <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
+                  Nech Sar National Park: A haven for wildlife and birdwatching.
 
                     </span>
                   </li>
