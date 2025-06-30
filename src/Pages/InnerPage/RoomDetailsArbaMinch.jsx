@@ -12,9 +12,9 @@ const RoomDetailsArbaMinch = () => {
 
   const navigate = useNavigate();
   const images = [
-    "images/Hawssa p/1D6A4632.jpg",
-    "images/Hawssa p/1D6A4874.jpg",
-    "images/Hawssa p/1D6A4869.jpg", 
+    "images/40menche/1D6A5815.jpg",
+    "images/40menche/1D6A5911.jpg",
+    "images/40menche/1D6A5919.jpg", 
   ];
 
   const prevBtn = () => {
